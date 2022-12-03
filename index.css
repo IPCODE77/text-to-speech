@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap'); 
+/* upper for heading */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+
+
+body{
+    min-height: 100vh;
+    background-color: #5256AD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-family: 'Rubik Microbe', cursive;
+}
+.main_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 18px #0000008a;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    text-align: left;
+    min-width: 100%;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    margin-top: 5px;
+    font-family: 'Noto Serif', serif;
+}
+textarea , select{
+    font-family: 'Noto Serif', serif;
+    min-width: 95%;
+    padding: 7px 7px;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+/* border: none; */
+    border-radius: 9px;
+}
+
+
+#submit{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px 10px;
+    background-color: #5256AD;
+    border: 1px solid white;
+    outline: none;
+    box-shadow: 2px 8px 8px #999999;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
